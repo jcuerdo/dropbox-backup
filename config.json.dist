@@ -1,0 +1,6 @@
+{
+  "access_token" : "",
+  "db_user" : "",
+  "db_password" : "",
+  "cleanup_days" : 30
+}
