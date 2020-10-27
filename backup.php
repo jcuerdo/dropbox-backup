@@ -21,7 +21,7 @@ $appName = $argv[1];
 $dbName = $argv[2];
 $folderToBackup = $argv[3] ?? null;
 $backupFolderName = date("d-m-yy");
-$backupFileName = $appName . "_" .date("H:i_d-m-yy");
+$backupFileName = $appName . "_" .date("H_i_d-m-yy");
 
 echo "Start backup\n-------------------\n";
 echo "App: $appName\n";
