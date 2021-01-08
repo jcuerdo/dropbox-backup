@@ -20,8 +20,8 @@ $dbPassword = $config['db_password'] ?? "";
 $appName = $argv[1];
 $dbName = $argv[2];
 $folderToBackup = $argv[3] ?? null;
-$backupFolderName = date("d-m-yy");
-$backupFileName = $appName . "_" .date("H_i_d-m-yy");
+$backupFolderName = date("d-m-Y");
+$backupFileName = $appName . "_" .date("H_i_d-m-Y");
 
 echo "Start backup\n-------------------\n";
 echo "App: $appName\n";
